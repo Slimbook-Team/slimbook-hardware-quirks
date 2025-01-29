@@ -1,0 +1,13 @@
+Source: slimbook-hardware-quirks
+Section: utils
+Priority: optional
+Maintainer: Slimbook <dev@slimbook.es>
+Build-Depends: debhelper-compat (=13)
+Standards-Version: 4.6.0
+Homepage: https://github.com/Slimbook-Team/slimbook-hardware-quirks
+
+Package: slimbook-quirk-elemental-audio
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Elemental 15 headphone quirk
+ This pin retask quirk allows Elemental 15 to use headphone with microphone combos
