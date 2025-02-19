@@ -1,0 +1,2 @@
+hda-combo/*.conf /etc/modprobe.d/
+hda-combo/*.fw /usr/lib/firmware/
