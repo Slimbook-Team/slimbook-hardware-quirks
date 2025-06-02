@@ -11,3 +11,9 @@ Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Elemental 15 headphone quirk
  This pin retask quirk allows Elemental 15 to use headphone with microphone combos
+
+Package: slimbook-quirk-i8042-wakeup
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Fix spurious wakes from keyboard
+ This udev rule configures i8042 keyboard device to be ignored as wakeup source

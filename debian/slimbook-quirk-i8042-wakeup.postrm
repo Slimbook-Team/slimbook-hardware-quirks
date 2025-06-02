@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -e
+
+#DEBHELPER#
+
+if [ ! ischroot ]; then
+    udevadm control --reload-rules && udevadm trigger
+fi
+
+exit 0

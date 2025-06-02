@@ -1,3 +1,9 @@
+slimbook-hardware-quirks (1.1) noble; urgency=medium
+
+  * Added a quirk for i8042 spurious wakes
+
+ -- Slimbook <dev@slimbook.es>  Mon, 02 Jun 2025 23:05:18 +0200
+
 slimbook-hardware-quirks (1.0) noble; urgency=medium
 
   * Initial release.
