@@ -1,3 +1,9 @@
+slimbook-hardware-quirks (1.1.1) noble; urgency=medium
+
+  * Increased priority for udev rule
+
+ -- Slimbook <dev@slimbook.es>  Thu, 26 Jun 2025 17:47:31 +0200
+
 slimbook-hardware-quirks (1.1) noble; urgency=medium
 
   * Added a quirk for i8042 spurious wakes
