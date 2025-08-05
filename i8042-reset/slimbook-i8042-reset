@@ -1,0 +1,11 @@
+#!/bin/sh
+
+case "$1" in
+    pre)
+    ;;
+    post)
+        echo "serio0" > /sys/bus/serio/drivers/atkbd/unbind
+    ;;
+esac
+
+exit 0
