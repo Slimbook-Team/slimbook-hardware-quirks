@@ -17,3 +17,9 @@ Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Fix spurious wakes from keyboard
  This udev rule configures i8042 keyboard device to be ignored as wakeup source
+ 
+Package: slimbook-quirk-i8042-reset
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Fix stuck keyboard after s2idle
+ This systemd sleep script resets unbinds i8042 device in order to re-attach again after suspension

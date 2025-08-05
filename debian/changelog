@@ -1,3 +1,9 @@
+slimbook-hardware-quirks (1.2.0) noble; urgency=medium
+
+  * Added a quirk for i8042 stuck after s2idle
+
+ -- Slimbook <dev@slimbook.es>  Tue, 05 Aug 2025 11:29:17 +0200
+
 slimbook-hardware-quirks (1.1.1) noble; urgency=medium
 
   * Increased priority for udev rule
