@@ -1,3 +1,9 @@
+slimbook-hardware-quirks (1.2.0.1) noble; urgency=medium
+
+  * Fixed post script bug
+
+ -- Slimbook <dev@slimbook.es>  Thu, 14 Aug 2025 11:06:35 +0200
+
 slimbook-hardware-quirks (1.2.0) noble; urgency=medium
 
   * Added a quirk for i8042 stuck after s2idle
